@@ -1,13 +1,15 @@
 tidy.data codebook
 
-The features in the dataset tidy.data are processed and aggregated signals from accelerometer and gyroscope 3-axial raw signals from smartphones.
-The data was collected on 30 individuals under various activity levels.  The data contained in the measurment columns are 
-a set of calculated means by subject and activity for these previously process smartphone sensor signals from previously.  Specifically the variables are 
-means of either mean or standard deviation aggregations of the original raw signals captured from these sensors.   
+The features in the dataset tidy.data are processed and aggregated signals from accelerometer and gyroscope 3-axial 
+raw signals from smartphones.  The data was collected on 30 individuals under various activity levels.  
+The data contained in the measurment columns are a set of calculated means by subject and activity for these 
+previously processed smartphone sensor signals.  Specifically the variables are 
+means of either the mean or the standard deviation aggregations of the original raw signals captured from these sensors.   
  
 The time domain signals (prefixed by 'time') were captured at a constant rate of 50 Hz. 
-Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
-Similarly, the acceleration ('acc') signal was then separated into 'body' and 'gravity' acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 
+20 Hz to remove noise.  Similarly, the acceleration ('acc') signal was then separated into 'body' and 'gravity' 
+acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk ('jerk') signals 
 
