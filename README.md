@@ -24,6 +24,5 @@ This script works as follows:
 4. simplifies and expands these variable names to be more descriptive, all lower case and removes extra characters
 5. recodes the activities from numeric codes to descriptive names like "walking, standing, etc.."
 6. takes the original data from this study, extracts columns that are indicated as mean and standard deviataion columns
-    of raw data, and then computes the mean each of these variables by subject and activity level.
-7. in the last step it and writes the computed means out to a text file called tidy.txt
+
 
