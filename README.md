@@ -17,7 +17,13 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-This script takes the original data from this study, extracts columns that are mean and standard deviataion columns
-of raw data, and then averages each of these variables by subject and activity level.
-and writes them out to a text file called tidy.txt
+This script works as follows:
+1. the raw data files from the aforementioned study should be in the working directory
+2. the script reads the x\_train.txt, y\_train.txt, subject\_train.txt, x\_test.txt, y\_test.txt, subject_test.txt files
+3. names the variables in the x\train.txt data with the names supplied in the "features.txt" file and then
+4. simplifies and expands these variable names to be more descriptive, all lower case and removes extra characters
+5. recodes the activities from numeric codes to descriptive names like "walking, standing, etc.."
+6. takes the original data from this study, extracts columns that are indicated as mean and standard deviataion columns
+    of raw data, and then computes the mean each of these variables by subject and activity level.
+7. in the last step it and writes the computed means out to a text file called tidy.txt
 
