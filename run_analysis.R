@@ -58,5 +58,5 @@ data<-cbind(subject, y.data, xdata.2)
 
 tidy.data<-aggregate(data[,3:68],by=list(subject=data$subject, activity=data$activity),mean)
 
-write.csv(tidy.data, file="C:/Users/dgorman/Desktop/tidy.csv", row.names=FALSE) #write out to csv
+write.table(tidy.data, file="C:/Users/dgorman/Desktop/tidy.txt", row.names=FALSE) #write out to .txt
 
